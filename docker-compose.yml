@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  accounts:
+    build: './accounts'
+    ports:
+      - "3000:3000"
+  customers:
+    build: './customers'
+    ports:
+      - "3001:3000"
+  transactions:
+    build: './transactions'
+    ports:
+      - "3002:3000"
+ 
