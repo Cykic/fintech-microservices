@@ -1,7 +1,7 @@
 {
-  "name": "tour-microservice",
+  "name": "transactions-microservice",
   "version": "1.0.0",
-  "description": "tour microservices",
+  "description": "transactions microservices",
   "main": "server.js",
   "directories": {
     "test": "test"
